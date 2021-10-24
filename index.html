@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Adryan Golvim - DoWhile 2021</title>
 
     <link rel="stylesheet" href="style.css" />
@@ -15,41 +15,45 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-</head>
-<body>
+  </head>
+  <body>
     <main>
       <div class="container">
         <div class="avatar">
           <span>
             <img src="images/build.svg" alt="Selo Rocketseat" />
           </span>
-          <img
-            src="images/perfil.jpg"
-            alt="Foto Pessoal"
-          />
+          <img id="userImage" src="images/perfil.jpg" alt="Foto Pessoal" />
         </div>
-        <h1>Mayk Brito</h1>
-        <a href="https://github.com/dylangolvim">
+
+        <h1 id="userName">Mayk Brito</h1>
+        <a id="userLink" href="https://github.com/dylangolvim">
           <img src="images/github.svg" alt="" />
-          dylangolvim</a
+          <span id="userLogin">dylangolvim</span></a
         >
 
-        <p>An instructor focused on helping pople start programming for web</p>
+        <p id="userBio">
+          An instructor focused on helping pople start programming for web
+        </p>
 
-        <ul>
-          </li>
-          <li>
+        <ul id="socialLinks">
+          <li class="instagram">
             <a href="https://www.instagram.com/dylan.golvim/" target="_blank">
-              <img src="images/instagram.svg" alt="" />
+              <img src="images/instagram.svg" alt="Ícone Instagram" />
             </a>
           </li>
-          <li>
-            <a href="https://www.linkedin.com/in/adryan-golvim/" target="_blank" >
-              <img src="images/linkedin.svg" alt=""/>
+          <li class="linkedin">
+            <a
+              href="https://www.linkedin.com/in/adryan-golvim/"
+              target="_blank"
+            >
+              <img src="images/linkedin.svg" alt="Icone LinkedIn" />
             </a>
           </li>
         </ul>
       </div>
     </main>
-</body>
+
+    <script src="main.js"></script>
+  </body>
 </html>
