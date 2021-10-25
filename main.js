@@ -3,9 +3,10 @@ function changeSocialMediaLinks() {
     const social = li.getAttribute('class')
 
     if (social == 'linkedin') {
-      li.children[0].href = `https://${social}.com/in/${LinksSocialMedia[social]}`
+      li.children[0].href = `https://${social}.com/in/${linksSocialMedia[social]}`
+    } else {
+      li.children[0].href = `https://${social}.com/${linksSocialMedia[social]}`
     }
-    li.children[0].href = `https://${social}.com/${LinksSocialMedia[social]}`
   }
 }
 
