@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 html,
@@ -18,9 +19,9 @@ body {
 }
 
 main {
-  background: url(images/Background.svg);
-  width: 375px;
-  height: 812px;
+  background: url(images/background.svg) no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
 }
 
 .container {
@@ -84,4 +85,12 @@ ul {
   gap: 0.5rem;
 
   justify-content: center;
+}
+@media (min-width: 960px) {
+  body {
+    background: black;
+  }
+  main {
+    background: url(images/Desktop.svg) no-repeat center/cover;
+  }
 }
